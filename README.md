@@ -2,11 +2,11 @@
 
 Welcome to my personal portfolio website, built using **React.js (v19)** and modern frontend technologies. This portfolio showcases my skills, projects, experience, and technical interests in a clean, responsive, and user-friendly interface.
 
-![Portfolio Banner](https://your-banner-image-url.com) <!-- Optional -->
+<!-- ![Portfolio Banner](https://your-banner-image-url.com) Optional -->
 
 ## 🚀 Live Demo
 
-🌐 [View Portfolio](https://your-portfolio-link.com)
+🌐 [View Portfolio](https://my-portfolio-kappa-sable-89.vercel.app/)
 
 ## 📌 About the Project
 
@@ -56,7 +56,7 @@ my-portfolio/
 Pre-final year B.Tech student at University College of Engineering and Technology, Hazaribagh  
 🌱 Passionate about Full-Stack Development, Distributed Systems & ML  
 📧 sanjeetskg1212@gmail.com  
-🔗 [LinkedIn](https://linkedin.com/in/sanjeetkumar-gupta) | [GitHub](https://github.com/SanjeetKumarGupta)
+🔗 [LinkedIn](https://www.linkedin.com/in/sanjeet-kumar-gupta-259061277/) | [GitHub](https://github.com/sanjeet8969)
 
 ## 🛠️ Getting Started
 
@@ -64,10 +64,10 @@ To run the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/SanjeetKumarGupta/my-portfolio.git
+git clone https://github.com/sanjeet8969/My-Portfolio.git
 
 # Navigate into the project folder
-cd my-portfolio
+cd My-Portfolio
 
 # Install dependencies
 npm install
