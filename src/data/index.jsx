@@ -18,6 +18,7 @@ import {
   SiAuth0,            // for Authentication (or use SiShield)
   SiRedux,            // add if using Redux
   SiPostman,          // add if using API tools
+  SiTailwindcss
 } from "react-icons/si";
 
 import { TbApi, TbShieldCheck, TbBinaryTree, TbBrandCpp } from "react-icons/tb"; // extra stylized dev icons
@@ -135,6 +136,7 @@ frameworks: [
   { name: "React", icon: "SiReact" },
   { name: "Node.js", icon: "SiNodedotjs" },
   { name: "Express.js", icon: "SiExpress" },
+  {name:"Tailwind CSS", icon:"SiTailwindcss"},
 ],
 
 toolsDatabases: [
@@ -201,6 +203,7 @@ export const skillIcons = {
   SiExpress,
   SiMongodb,
   SiGit,
+  SiTailwindcss,
   SiWordpress,
   SiDatabricks,       // for DataTables (optional)
   SiAuth0,            // for Authentication (or use SiShield)
