@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+@theme{
+  --font-font-family: 'Poppins', 'Inter', sans-serif;
+  --color-regal-blue: #2d3748;
+  --color-regal-blue-dark: #1f2937;
+  --color-regal-blue-light: #f9fafb;
+  --color-white: #f3f4f6;
+  --color-card-dark: '#1f2937';
+  --color-primary-light: #2563eb;
+  --color-primary-dark: #60a5fa;
+  --color-secondary-light:#1f2937;
+  --color-secondary-dark: #d1d5db;
+  --color-background-light:"#f9fafb";
+  --color-background-dark:"#111827";
+  --color-text-light:"#1f2937";
+  --color-text-dark:"#f3f4f6";
+  --color-card-light:"#ffffff";
+}
+
+:html.dark {
+  background-color: #111827; /* Matches background.dark */
+}
+
+body {
+  font-family: 'Poppins', 'Inter', sans-serif;
+  color: #1f2937; /* text.light */
+  background-color: #f9fafb; /* background.light */
+  transition: background-color 0.3s ease, color 0.3s ease;
+  
+}
+
+html.dark body {
+  color: #f3f4f6; /* text.dark */
+  background-color: #111827; /* background.dark */
+}
+
+/* Custom scrollbar for a developer aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Light mode track */
+  border-radius: 10px;
+}
+
+html.dark ::-webkit-scrollbar-track {
+  background: #2d3748; /* Dark mode track */
+}
+::-webkit-scrollbar-thumb {
+  background: #a0aec0; /* Light mode thumb */
+  border-radius: 10px;
+}
+
+html.dark ::-webkit-scrollbar-thumb {
+  background: #6b7280; /* Dark mode thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #718096; /* Darker on hover */
+}
+
+html.dark ::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+ 
+
